@@ -26,4 +26,4 @@ jobs:
           persist-credentials: false
 
       - name: typos-action
-        uses: crate-ci/typos@v1.28.1
+        uses: crate-ci/typos@v1.34.0

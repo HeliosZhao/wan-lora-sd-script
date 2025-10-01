@@ -25,7 +25,7 @@ jobs:
         pytorch-version: ["2.4.0"] # PyTorch versions to test
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # https://woodruffw.github.io/zizmor/audits/#artipacked
           persist-credentials: false
